@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background: #E2E2E2;
+}
+
+/* info push */
+
+.topmost{
+    width: 100%;
+    text-align: center;
+    background-color: #E2E2E2;
+    font-size: 0.7rem;
+    padding: .5%;
+}
+
+/* choose campus */
+
+.topsecond{
+    width: 100%;
+    text-align: left;
+    background: rgb(4, 56, 100);
+    color: white;
+    float: left;
+    font-size: 2.5rem;
+    padding-bottom: .2% ;
+}
+
+@media only screen and (max-width:600px){
+    .topsecond{
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+}
+
+.topsecond button{
+    background-color: rgb(226, 226, 226);
+    border: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    font-size: 1rem;
+    padding: 0 2.5%;
+    margin: 2% .8%;
+}
+.topsecond .cname{
+    margin-right: 5%;   
+}
+.topsecond span{
+    padding: auto;
+    margin:2% 0 2% 5%;
+    /* margin-top: 5%; */
+}
+
+/* main menu  */
+
+
+#navbarDropdown{
+    color: wheat;
+}
+#navbarDropdown:hover{
+    color: white;
+}
+.navbar-brand{
+    padding-left: 0;
+    margin-left: 0;
+    float: left;
+}
+nav{
+    margin:0 5%;
+}
+div .bg-light {
+    background-color: rgb(13, 107, 186)!important;
+}
+.dropdown-menu{
+    background-color: rgb(13, 107, 186)!important;
+}
+.menu{
+    background-color: rgb(13, 107, 186)!important;
+
+}
+div .dropdown-item{
+    color: white;
+}
+nav input{
+    width: 45%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+}
+
+/* top slider */
+
+.topquote{
+    background: rgba(13, 107, 186, 0.5);
+    color: white;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    margin-top: -65.5px;
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width:768px){
+    .topquote{
+        font-size: .6rem;
+        margin-top: -88px;
+    }
+}
+
+@media only screen and (min-width:769px){
+    .topquote h3{
+    font-size: 50px;
+    margin-top: -92px;
+    }
+}
+
+/* cards info */
+
+.cards{
+    margin: 30px;
+}
+
+.card-body{
+    border-top: 6px solid rgb(4, 56, 100);
+}
+
+.card{
+    color: black;
+    margin-bottom: 7%;
+}
+
+div .scard{
+    background-color: rgb(205, 205, 204);   
+}
+
+div .mcard{
+    background-color: rgb(140, 253, 254);
+}
+
+/* bottom slider */
+
+section img{
+    width: 100%;
+    height: 90vh;
+}
+
+section #demo h3{
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 90px;
+}
+
+div .carousel-caption {
+    bottom: -50px;
+}
+
+@media only screen and (min-width:600px){
+
+    section #demo h3{
+    font-size: 50px;
+    }
+}
+
+section .carousel-caption{
+    right: 0;
+    left: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .carousel-inner img{
+        width: 100%;
+        height: auto;
+    }
+    .slidertop img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* footer element */
+
+footer{
+    background-color: rgb(3, 46, 84);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+footer .fitems{
+    margin: 0;
+    padding: 0;
+    margin: 3% 5% 0 5%;
+}
+
+footer a{
+    color: white;
+}
+
+footer div strong{
+    color: rgb(140, 253, 254);
+    font-size: 1.2rem;
+}
+
+footer img{
+    width: 90%;
+}
+
+#icons{
+    width: auto;
+}
+
+footer div{
+    margin-top:20px ;
+}
+
+.row , a{
+   color: white;
+}
+
+
+#bottommost{
+    color: white;
+    text-align: center;
+    background-color: rgb(7, 31, 53);
+}
