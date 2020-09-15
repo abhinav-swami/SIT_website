@@ -8,7 +8,7 @@ live project: https://abhinav-swami.github.io/SIT_website/
 
 ---
 
-sorry for bad quality gif ;) 
+Apologies for bad quality gif ;) 
 ## Mobile Preview
 ![mobile_preview](https://github.com/abhinav-swami/SIT_website_redesign/blob/master/readme-data/mob-preview.gif)
 
